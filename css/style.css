@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --font: "Jost", sans-serif;
+  --font-size-md: 24px;
+  --font-size-sm: 18px;
+  --font-size-h1: 64px;
+  --font-size-h2: 48px;
+  --font-size-h3: 38px;
+  --font-weight-nor: 400;
+  --font-weight-md: 500;
+  --font-weight-sb: 600;
+  --font-weight-b: 700;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: var(--white);
+  font-family: var(--font);
+  color: var(--black);
+}
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+ul {
+  list-style: none;
+}
+h1 {
+  font-size: var(--font-size-h1);
+  font-weight: var(--font-weight-b);
+}
+h2 {
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-b);
+}
+h3 {
+  font-size: var(--font-size-h3);
+  font-weight: var(--font-weight-sb);
+}
+p {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-nor);
+}
+.con {
+  max-width: 1000px;
+  margin: auto;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header {
+  position: sticky;
+  top: 0;
+  background-color: var(--white);
+}
+nav {
+  display: flex;
+  padding: 26px 0px;
+  justify-content: center;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 65px;
+}
+nav ul li a {
+  color: var(--black);
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-md);
+}
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--black);
+  color: var(--white);
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-md);
+  width: 204px;
+  height: 61px;
+  border-radius: 30px;
+  border: none;
+  margin-top: 35px;
+}
+.intro{
+  scroll-margin-top: 88px;
+}
+.intro h2 {
+  padding-bottom: 20px;
+}
+.intro h1 {
+  padding-bottom: 20px;
+}
+.about h2 {
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+.about button {
+  gap: 15px;
+}
+.skill h2 {
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+.skill .flex {
+  gap: 90px;
+}
+.skill-left-part {
+  width: 50%;
+}
+.skill-right-part {
+  width: 50%;
+}
+.progress-bar-container {
+  background-color: var(--white);
+  border: 1px solid var(--black);
+  width: 100%;
+  height: 15px;
+  border-radius: 20px;
+  box-shadow: inset 0 0 0 1px #000000;
+}
+.progress-bar-percent {
+  height: 14px;
+  background-color: var(--black);
+  border-radius: 20px 0px 0px 20px;
+  border: none;
+}
+.skill-whole-part {
+  margin-bottom: 50px;
+}
+.skill-content {
+  padding-bottom: 5px;
+}
+.figma {
+  width: 50%;
+}
+.html-css {
+  width: 90%;
+}
+.cpp {
+  width: 99%;
+}
+.python {
+  width: 50%;
+}
+.sql {
+  width: 10%;
+}
+.flask {
+  width: 30%;
+}
+.dsa {
+  width: 30%;
+}
+.javascript {
+  width: 80%;
+}
+.project h2 {
+  padding-top: 100px;
+}
+.project h3 {
+  padding-top: 20px;
+}
+.project-content,
+.contact-content {
+  padding-top: 20px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+}
+.project-content .title,
+.contact-content .title {
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-md);
+}
+.project-content .inner-content,
+.contact-content .inner-content {
+  padding-top: 6px;
+}
+.contact h2 {
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+footer p {
+  text-align: center;
+  padding: 50px 0;
+}
